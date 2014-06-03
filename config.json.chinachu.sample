@@ -1,0 +1,79 @@
+{
+  "recordedDir" : "./recorded/",
+  "temporaryDir": "/tmp/",
+    
+  "wuiPort"        : 10772,
+  "wuiHost"        : "0.0.0.0",
+  "wuiTlsKeyPath"  : null,
+  "wuiTlsCertPath" : null,
+  "wuiOpenServer"  : false,
+  "wuiOpenPort"    : 20772,
+  "wuiPreviewer"   : true,
+  "wuiStreamer"    : true,
+  "wuiFiler"       : true,
+  "wuiConfigurator": true,
+  
+  "recordedFormat": "[<date:yymmdd-HHMM>][<type><channel>][<tuner>]<title>.ts",
+  "schedulerEpgRecordTime": 300,
+  "operSchedulerProcessTime": 2400000,
+  "operRecPrepTime": 60000,
+  "operRecOffsetStart": 30000,
+  "operRecOffsetEnd": 0,
+  "tuners": [
+    {
+      "name"        : "PT3-S1",
+      "isScrambling": false,
+      "types"       : [ "BS", "CS" ],
+      "command"     : "./recpt3.py s0 <channel> 1 -"
+    },
+    {
+      "name"        : "PT3-S2",
+      "isScrambling": false,
+      "types"       : [ "BS", "CS" ],
+      "command"     : "./recpt3.py s1 <channel> 1 -"
+    },
+    {
+      "name"        : "PT3-T1",
+      "isScrambling": false,
+      "types"       : [ "GR" ],
+      "command"     : "./recpt3.py t0 <channel> 1 -"
+    },
+    {
+      "name"        : "PT3-T2",
+      "isScrambling": false,
+      "types"       : [ "GR" ],
+      "command"     : "./recpt3.py t1 <channel> 1 -"
+    }
+  ],
+  
+  "channels": [
+    { "type": "GR", "channel": "20" },
+    { "type": "GR", "channel": "21" },
+    { "type": "GR", "channel": "22" },
+    { "type": "GR", "channel": "23" },
+    { "type": "GR", "channel": "24" },
+    { "type": "GR", "channel": "25" },
+    { "type": "GR", "channel": "26" },
+    { "type": "GR", "channel": "27" },
+
+        { "type": "BS", "channel": "101" },
+        { "type": "BS", "channel": "103" },
+        { "type": "BS", "channel": "141" },
+        { "type": "BS", "channel": "151" },
+        { "type": "BS", "channel": "161" },
+        { "type": "BS", "channel": "171" },
+        { "type": "BS", "channel": "181" },
+        { "type": "BS", "channel": "191" },
+        { "type": "BS", "channel": "192" },
+        { "type": "BS", "channel": "193" },
+        { "type": "BS", "channel": "211" },
+        
+        { "type": "CS", "channel": "333", "sid": "333" },
+        { "type": "CS", "channel": "307", "sid": "307" },
+        { "type": "CS", "channel": "308", "sid": "308" },
+        { "type": "CS", "channel": "309", "sid": "309" }
+
+  ],
+    "ch_tmp":[
+    ]
+}
