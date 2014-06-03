@@ -1,0 +1,35 @@
+{
+    "channels":{
+        "20":{"type":"GR", "ch":"20", "freq":70, "desc":"TOKYO MX"},
+        "21":{"type":"GR", "ch":"21", "freq":71, "desc":"フジテレビ"},
+        "22":{"type":"GR", "ch":"22", "freq":72, "desc":"TBS"},
+        "23":{"type":"GR", "ch":"23", "freq":73, "desc":"テレビ東京"},
+        "24":{"type":"GR", "ch":"24", "freq":74, "desc":"テレビ朝日"},
+        "25":{"type":"GR", "ch":"25", "freq":75, "desc":"日テレ"},
+        "26":{"type":"GR", "ch":"26", "freq":76, "desc":"NHK Eテレ"},
+        "27":{"type":"GR", "ch":"27", "freq":77, "desc":"NHK 総合"},
+        "30":{"type":"GR", "ch":"30", "freq":80, "desc":"チバテレ"},
+        "31":{"type":"GR", "ch":"31", "freq":81, "desc":"TVK"},
+        "32":{"type":"GR", "ch":"32", "freq":82, "desc":"テレ玉"},
+        
+        "101":{"type": "BS", "ch": "101", "freq":7, "desc":"NHKBS1"},
+        "102":{"type": "BS", "ch": "102", "freq":7, "desc":"NHKBS1臨時"},
+        "103":{"type": "BS", "ch": "103", "freq":7, "desc":"NHKBSプレミアム"},
+        "141":{"type": "BS", "ch": "141", "freq":6, "desc":"BS日テレ"},
+        "151":{"type": "BS", "ch": "151", "freq":0, "desc":"BS朝日"},
+        "161":{"type": "BS", "ch": "161", "freq":65536, "desc":"BS-TBS"},
+        "171":{"type": "BS", "ch": "171", "freq":65537, "desc":"BSジャパン"},
+        "181":{"type": "BS", "ch": "181", "freq":65542, "desc":"BSフジ"},
+        "191":{"type": "BS", "ch": "191", "freq":1, "desc":"WOWOWプレミアム"},
+        "192":{"type": "BS", "ch": "192", "freq":2, "desc":"WOWOWライブ"},
+        "193":{"type": "BS", "ch": "193", "freq":65537, "desc":"WOWOWシネマ"},
+        "200":{"type": "BS", "ch": "200", "freq":65540, "desc":"スターチャンネル"},
+        "211":{"type": "BS", "ch": "211", "freq":4, "desc":"BS11"},
+        "236":{"type": "BS", "ch": "236", "freq":65539, "desc":"BSアニマックス"},
+    
+        "307":{ "type": "CS", "ch": "CS20", "freq": 21, "desc":"フジテレビONE" },
+        "308":{ "type": "CS", "ch": "CS20", "freq": 21, "desc":"フジテレビTWO" },
+        "309":{ "type": "CS", "ch": "CS20", "freq": 21, "desc":"フジテレビNEXT" },
+        "333":{ "type": "CS", "ch": "CS16", "freq": 19, "desc":"AT-X" }
+    }
+}
